@@ -15,4 +15,4 @@ async def unicorn_exception_handler(request: Request, exc: FileNotFoundError):
 
 if __name__ == "__main__":
     print(config.BASE_URL)
-    uvicorn.run(app, host="0.0.0.0", port=80)
+    uvicorn.run(app, host="0.0.0.0", port=1003)

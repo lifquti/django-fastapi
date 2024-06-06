@@ -6,4 +6,4 @@ load_dotenv()
 
 cwd = Path().cwd()
 
-BASE_URL = os.getenv("WEBHOOK_HOST", "https://example.com")
+BASE_URL = os.getenv("WEBHOOK_HOST")
